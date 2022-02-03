@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>Ingreso</title>
+        <link href="css/Estilos.css" type="text/css" rel="stylesheet" media="">
+        <meta charset="utf-8"> 
+        <link rel="icon" href="Imagenes/Icono.ico">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+        <link rel="stylesheet" href="css/bootstrap.min.css"> 
+        <link href="https://fonts.googleapis.com/css?family=Anton|Dosis:400,800" rel="stylesheet"> 
+    </head>
+
+    <body>
+        <header class="site-header"> 
+            <div class="container"> 
+                <div class="row align-items-center"> 
+                    <div class="col"> 
+                        <h1 class="align-middle text-center text-lg-Center">Ingresar</h1> 
+                    </div> 
+                </div> 
+            </div> 
+        </header> 
+
+        <main class="container"> 
+            <div class="contenedor"> 
+                <article class="col-12"> 
+                    <section>
+                        <br>
+                        <a href="Index.html" class="volver">ir Inicio</a>
+                        <h2 class="lecture-title"> Ingresa la informacion</h2> 
+
+                        <br><br><br>
+
+                        <form class="contact_form" method="POST" action="Clases/Ingreso.php">
+                            <label for="usser">Usuario:</label>
+                            <input type="text" name="usser" required placeholder="Usuario..."/>
+                
+                            <br><br>
+                            <label for="clave">Clave:</label>
+                            <input type="password" name="clave" required placeholder="Contraseña/Clave..."/>
+                
+                            <br><br><br><br><br>
+                            
+                            <button class="submit" type="submit" name="atras"><a href="RegistroInfo.php">Registrar</a></button>
+                            <button class="submit" type="submit" name="ingresar">Ingresar</button>
+                        </form>
+                    </section>
+                </article> 
+            </div> 
+        </main>
+
+        <footer class="site-footer">
+            <div class="container"> 
+                <div class="row align-items-center"> 
+                    <div class="col"> 
+                        <h1 class="align-middle text-center text-lg-Center">&copy; Todos los derechos reservados - Colombia 2021</h1> 
+                    </div> 
+                </div> 
+            </div> 
+        </footer>
+    </body>
+</html>
